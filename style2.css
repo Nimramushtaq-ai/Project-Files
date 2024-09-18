@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+header.main{
+    position: absolute;
+    top: 25%;
+    width: 70%;
+    gap: 60px;
+    left: 50%;
+    /* display: none; */
+
+    transform: translateX(-50%)
+    
+    
+    
+}
+header.main.left{
+    flex: 1;
+    justify-content: left;
+
+}
+header.main.right{
+    flex: 1;
+}
+header.main.left p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top:-14;
+    margin: left 28px; 
+    letter-spacing: 0.2px;
+}
+header.main.right form{
+    width: 396px;
+    background: white;
+    border-radius: 8px;
+    margin-top: -50%;
+    padding: 20px 0 28px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, .1),0 8px 16px rgb(0, 0, 0, .1);
+}
+.form-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    flex-direction: column;
+    padding: 0 12px;
+
+}
+header.main.left img{
+    height: 104px;
+    width: 101px;
+}
+form input{
+    flex: 1;
+    border: 1px solid black;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 14px 16px;
+    color:black;
+    outline-color: black;
+
+}
+.login{
+    background-color: brown;
+    font-size: 20px;
+    color: antiquewhite;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    width: 100px;
+
+
+}
+.forget{
+    text-align: center;
+    color: cadetblue;
+    font-size: 16px;
+    margin: 5px 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.forget:hover{
+    text-decoration: underline;
+
+}
+hr{
+    background: rgb(128, 128, 128, 0.349);
+    height: 0.2px;
+}
+.creat{
+    background-color: palegreen;
+    font-size: 27px;
+    color: white;
+    width: 192px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    line-height: 48px;
+    margin: auto;
+    cursor: pointer;
+    padding: 0 16px;
+
+}
+.foot{
+    margin-top: 28px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.foot span{
+    font-weight: bold;
+}
+
+
+
+
+.signup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 432px;
+    background:#fff;
+    box-shadow: 0 2px 4px rgb(0, 0, 0,.1), 0 8px 16px rgb(0, 0,0,0.1);
+    padding-bottom: 18px;
+    border-radius: 8px;
+    margin-top: 50px;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 18px;
+}
+.top>div>h1{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.top>div>p{
+    color: #606770;
+    line-height: 24px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+hr{
+    border: 0.1px;
+    background: gray;
+
+}
+.signup-body{
+    display: flex;
+     flex-wrap: wrap; 
+    padding: 15px 15px;
+    box-sizing: border-box;
+
+}
+.same{
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 50%;
+
+}
+.name{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    font-size: 15px;
+
+    
+    
+
+}
+.buttom input{
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.birthday{
+    padding: 0 15px;
+
+}
+.birthday select{
+    padding: 7px 35px;
+    /* font-size: 16px; */
+    cursor: pointer;
+    border: 1px soli rgb(0, 0, 0, 0.458);
+
+}
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.gender{
+    padding: 0 15px;
+}
+.gender .person{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+ 
+ }
+.gender .person> div{
+    font-size: 16px;
+    padding: 7px;
+    display: flex;
+    gap: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.458); 
+    border-radius: auto;
+}
+ .person>din>label{
+    margin-right: 10px;
+}
+.content{
+    padding: 0 15px;
+}
+.content  p{
+    margin: 10px 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.text{
+    font-size: 12px;
+    font-family: sans-serif;
+
+}
+.signin{
+     height: 36px; 
+     width: 194px; 
+     background:green ;
+     border: none;
+     color: white;
+     font-weight: bold;
+     font-size: 17px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-left: 118px;
+    text-transform: capitalize;
+} 
+ .fb{
+    text-align: center; 
+     color: blue; 
+     margin-top: 10px;
+     font-size: 50px; 
+    
+}
+#qus{
+    margin-left: 125px;
+    color: rgb(62, 170, 206);
+}
+.newaccount{
+    align-items: center;
+    margin-left: 40px;
+}
+.blue{
+    color: blue;
+    cursor: pointer;
+  
+}
+
+.passwor{
+    display: flex;
+    gap: 50px;
+    /* margin: 15px 0; */
+    /* font-size: 15px; */
+}
